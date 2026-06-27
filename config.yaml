@@ -1,0 +1,16 @@
+dataset_name: cst_yolo
+mAP_iou_threshold: 0.5
+lambda_obj: 1.0
+lambda_noobj: 1.0
+lambda_lct_loss: 5.0
+lambda_conf_loss: 1.0
+lambda_cls_loss: 1.0
+learning_rate: 0.001
+cls_list: [circle, square, triangle]
+nc: 3
+anchors:
+- [0.1272, 0.1227]
+- [0.0754, 0.0728]
+- [0.1949, 0.1913]
+- [0.1584, 0.1512]
+- [0.0993, 0.0959]
