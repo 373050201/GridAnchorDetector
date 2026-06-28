@@ -9,7 +9,9 @@ import yaml
 
 
 
-class GridAnchorDetector(nn.Module):#输入shape:[13,13,5,(4+1+nc)],其中(4+1+C)包括(tx,ty,tw,th,conf,nc个onehot)
+class GridAnchorDetector(nn.Module):
+    #输入shape:[B,3,416,416]
+    #输出shape:[B,13,13,5,(5+nc)],其中(5+nc)包括(tx,ty,tw,th,conf,nc个onehot)
     def __init__(self):
         super(GridAnchorDetector,self).__init__()
         resnet=models.resnet18()
