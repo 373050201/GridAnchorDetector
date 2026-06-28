@@ -24,11 +24,11 @@
 
 3、特征处理模块：降维，拟合输出格式。
 
-![3.png](C:\Users\37305\Desktop\CSrelated\Python\GridAnchorDetector\README_imgs\3.png)
+![3.png](./README_imgs/3.png)
 
 4、前向传播函数：
 
-![4.png](.\README_imgs\4.png)
+![4.png](./README_imgs/4.png)
 
 ### ——性能结果——
 
@@ -62,4 +62,4 @@
 
 --此示例存放于detect目录下：
 
-![5.png](C:\Users\37305\Desktop\CSrelated\Python\GridAnchorDetector\README_imgs\5.png)
+![5.png](./README_imgs/5.png)
